@@ -1,15 +1,15 @@
 package life;
 
-public enum FieldState
-{
-	ALIVE('O'),
-	DEAD(' ');
-	private final char symbol;
+public enum FieldState {
+    ALIVE('O'),
+    DEAD(' ');
+    private final char symbol;
 
-	FieldState(char symbol) {this.symbol = symbol;}
+    FieldState(char symbol) {
+        this.symbol = symbol;
+    }
 
-	public char getSymbol()
-	{
-		return symbol;
-	}
+    public char getSymbol() {
+        return symbol;
+    }
 }
